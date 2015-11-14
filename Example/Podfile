@@ -4,6 +4,6 @@ use_frameworks!
 inhibit_all_warnings!                           # KWHaveValueMatcher.m:45:47: warning: 'isEqualOrMatches:' is deprecated
 
 target 'Example Specs', :exclusive => true do
-  pod "Kiwi-CedarShortcuts", :path => "../"
+  pod 'Kiwi-CedarShortcuts', :path => "../"
   link_with 'Example Specs'
 end
