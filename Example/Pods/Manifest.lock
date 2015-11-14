@@ -1,6 +1,7 @@
 PODS:
   - Kiwi (2.4.0)
-  - Kiwi-CedarShortcuts (0.1.0)
+  - Kiwi-CedarShortcuts (0.1.0):
+    - Kiwi (~> 2.0)
 
 DEPENDENCIES:
   - Kiwi
@@ -12,6 +13,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  Kiwi-CedarShortcuts: befb11f6fa4528453f0bb2ef53e0679f07bd51ad
+  Kiwi-CedarShortcuts: 20dea487ed895d064cd5dff38264cd54bf96a216
 
 COCOAPODS: 0.39.0
