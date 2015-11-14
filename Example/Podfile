@@ -3,8 +3,6 @@ platform :ios, '8.0'
 use_frameworks!
 inhibit_all_warnings!                           # KWHaveValueMatcher.m:45:47: warning: 'isEqualOrMatches:' is deprecated
 
-target 'Kiwi-CedarShortcuts_Tests', :exclusive => true do
+target 'Example Specs', :exclusive => true do
   pod "Kiwi-CedarShortcuts", :path => "../"
-
-  pod 'Kiwi'
 end

@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Kiwi-CedarShortcuts_Tests/Kiwi.framework"
-  install_framework "Pods-Kiwi-CedarShortcuts_Tests/Kiwi_CedarShortcuts.framework"
+  install_framework "Pods-Example Specs/Kiwi.framework"
+  install_framework "Pods-Example Specs/Kiwi_CedarShortcuts.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Kiwi-CedarShortcuts_Tests/Kiwi.framework"
-  install_framework "Pods-Kiwi-CedarShortcuts_Tests/Kiwi_CedarShortcuts.framework"
+  install_framework "Pods-Example Specs/Kiwi.framework"
+  install_framework "Pods-Example Specs/Kiwi_CedarShortcuts.framework"
 fi

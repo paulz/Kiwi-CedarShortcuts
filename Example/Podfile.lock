@@ -4,7 +4,6 @@ PODS:
     - Kiwi (~> 2.0)
 
 DEPENDENCIES:
-  - Kiwi
   - Kiwi-CedarShortcuts (from `../`)
 
 EXTERNAL SOURCES:

@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "Kiwi-CedarShortcuts_Tests.xctest"
-               BlueprintName = "Kiwi-CedarShortcuts_Tests"
+               BuildableName = "Example Specs.xctest"
+               BlueprintName = "Example Specs"
                ReferencedContainer = "container:Kiwi-CedarShortcuts.xcodeproj">
             </BuildableReference>
          </TestableReference>
