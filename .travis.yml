@@ -14,4 +14,4 @@ before_install:
 script:
   - pod --version
   - pod lib lint --allow-warnings
-  - set -o pipefail && xcodebuild test -workspace Example/Kiwi-CedarShortcuts.xcworkspace -scheme Kiwi-CedarShortcuts-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+  - set -o pipefail && xcodebuild test -workspace Example/Kiwi-CedarShortcuts.xcworkspace -scheme "Example Specs" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
