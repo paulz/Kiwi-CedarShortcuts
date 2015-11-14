@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Kiwi-CedarShortcuts_Example', :exclusive => true do
+  pod "Kiwi-CedarShortcuts", :path => "../"
+end
+
+target 'Kiwi-CedarShortcuts_Tests', :exclusive => true do
+  pod "Kiwi-CedarShortcuts", :path => "../"
+
+  pod 'Kiwi'
+end
