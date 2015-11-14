@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Kiwi-CedarShortcuts.podspec' to ensure this is a
+# Be sure to run 'pod lib lint Kiwi-CedarShortcuts.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -9,22 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "Kiwi-CedarShortcuts"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Kiwi-CedarShortcuts."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "Run single Kiwi spec using CedarShortcuts Xcode plugin"
   s.description      = <<-DESC
+    Run single Kiwi spec file in Xcode by pressing Control-Option-U
+    requires CedarShortcuts Xcode plugin
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Kiwi-CedarShortcuts"
+  s.homepage         = "https://github.com/paulz/Kiwi-CedarShortcuts"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Paul Zabelin" => "pzabelin+git@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Kiwi-CedarShortcuts.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Paul Zabelin" => "https://github.com/paulz" }
+  s.source           = { :git => "https://github.com/paulz/Kiwi-CedarShortcuts.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/iospaulz'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,8 +29,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'Kiwi-CedarShortcuts' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.framework = 'XCTest'
+  s.dependency 'Kiwi', '~> 2.4'
 end
