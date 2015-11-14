@@ -5,4 +5,5 @@ inhibit_all_warnings!                           # KWHaveValueMatcher.m:45:47: wa
 
 target 'Example Specs', :exclusive => true do
   pod "Kiwi-CedarShortcuts", :path => "../"
+  link_with 'Example Specs'
 end

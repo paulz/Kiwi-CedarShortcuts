@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '84F5DB57A72D3108C87C59A8'
+               BlueprintIdentifier = 'FB5EC5EE654B51632AED2D8C'
                BlueprintName = 'Kiwi-CedarShortcuts'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Kiwi_CedarShortcuts.framework'>

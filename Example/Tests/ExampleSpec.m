@@ -14,6 +14,15 @@
 SPEC_BEGIN(ExampleSpec)
 
 describe(@"Example", ^{
+    context(@"within CedarShortCuts Xcode plugin with Control-Option-U", ^{
+        it(@"should define CEDAR_SPEC_FILE", ^{
+            NSProcessInfo *processInfo = [NSProcessInfo processInfo];
+            NSDictionary *environment = [processInfo environment];
+            NSString *cedarSpecFile = environment[@"CEDAR_SPEC_FILE"];
+            [[cedarSpecFile should] beNonNil];
+        });
+    });
+    
     context(@"file", ^{
         it(@"should equal __FILE__", ^{
             [[[self file] should] equal:@__FILE__];
