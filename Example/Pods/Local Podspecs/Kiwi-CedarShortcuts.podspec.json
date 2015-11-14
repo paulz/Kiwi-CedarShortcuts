@@ -1,0 +1,25 @@
+{
+  "name": "Kiwi-CedarShortcuts",
+  "version": "0.1.0",
+  "summary": "A short description of Kiwi-CedarShortcuts.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Kiwi-CedarShortcuts",
+  "license": "MIT",
+  "authors": {
+    "Paul Zabelin": "pzabelin+git@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Kiwi-CedarShortcuts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Kiwi-CedarShortcuts": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

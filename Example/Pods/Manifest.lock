@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - Kiwi-CedarShortcuts (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - Kiwi-CedarShortcuts (from `../`)
+
+EXTERNAL SOURCES:
+  Kiwi-CedarShortcuts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  Kiwi-CedarShortcuts: befb11f6fa4528453f0bb2ef53e0679f07bd51ad
+
+COCOAPODS: 0.39.0

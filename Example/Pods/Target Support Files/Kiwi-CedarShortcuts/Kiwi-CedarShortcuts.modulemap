@@ -1,0 +1,6 @@
+framework module Kiwi_CedarShortcuts {
+  umbrella header "Kiwi-CedarShortcuts-umbrella.h"
+
+  export *
+  module * { export * }
+}

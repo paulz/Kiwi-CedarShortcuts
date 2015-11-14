@@ -1,0 +1,6 @@
+framework module Pods_Kiwi_CedarShortcuts_Tests {
+  umbrella header "Pods-Kiwi-CedarShortcuts_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
