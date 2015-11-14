@@ -1,7 +1,7 @@
 # Kiwi-CedarShortcuts
 Run single Kiwi spec using CedarShortcuts Xcode plugin
 
-[![CI Status](http://img.shields.io/travis/Paul Zabelin/Kiwi-CedarShortcuts.svg?style=flat)](https://travis-ci.org/Paul Zabelin/Kiwi-CedarShortcuts)
+[![CI Status](http://img.shields.io/travis/paulz/Kiwi-CedarShortcuts.svg?style=flat)](https://travis-ci.org/paulz/Kiwi-CedarShortcuts)
 [![Version](https://img.shields.io/cocoapods/v/Kiwi-CedarShortcuts.svg?style=flat)](http://cocoapods.org/pods/Kiwi-CedarShortcuts)
 [![License](https://img.shields.io/cocoapods/l/Kiwi-CedarShortcuts.svg?style=flat)](http://cocoapods.org/pods/Kiwi-CedarShortcuts)
 [![Platform](https://img.shields.io/cocoapods/p/Kiwi-CedarShortcuts.svg?style=flat)](http://cocoapods.org/pods/Kiwi-CedarShortcuts)
