@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
     'Kiwi-CedarShortcuts' => ['Pod/Assets/*.png']
   }
   s.framework = 'XCTest'
-  s.dependency 'Kiwi', '~> 2.4'
+  s.dependency 'Kiwi', '~> 2.0'
 end
