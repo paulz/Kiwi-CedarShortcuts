@@ -15,12 +15,15 @@ SPEC_BEGIN(ExampleSpec)
 
 describe(@"Example", ^{
     context(@"within CedarShortCuts Xcode plugin with Control-Option-U", ^{
-        it(@"should define CEDAR_SPEC_FILE", ^{
-            NSProcessInfo *processInfo = [NSProcessInfo processInfo];
-            NSDictionary *environment = [processInfo environment];
-            NSString *cedarSpecFile = environment[@"CEDAR_SPEC_FILE"];
-            [[cedarSpecFile should] beNonNil];
-        });
+        NSProcessInfo *processInfo = [NSProcessInfo processInfo];
+        NSDictionary *environment = [processInfo environment];
+        NSString *cedarSpecFile = environment[@"CEDAR_SPEC_FILE"];
+
+        if (cedarSpecFile) {
+            it(@"should define CEDAR_SPEC_FILE have this file path as prefix", ^{
+                [[cedarSpecFile should] startWithString:[self file]];
+            });
+        }
     });
     
     context(@"file", ^{
