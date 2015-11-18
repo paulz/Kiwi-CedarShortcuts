@@ -1,5 +1,5 @@
 # Kiwi-CedarShortcuts
-Run single Kiwi spec using CedarShortcuts Xcode plugin
+Run single [Kiwi](https://github.com/kiwi-bdd/Kiwi) spec using [CedarShortcuts](https://github.com/cppforlife/CedarShortcuts) Xcode plugin
 
 [![CI Status](http://img.shields.io/travis/paulz/Kiwi-CedarShortcuts.svg?style=flat)](https://travis-ci.org/paulz/Kiwi-CedarShortcuts)
 [![Version](https://img.shields.io/cocoapods/v/Kiwi-CedarShortcuts.svg?style=flat)](http://cocoapods.org/pods/Kiwi-CedarShortcuts)
@@ -8,8 +8,7 @@ Run single Kiwi spec using CedarShortcuts Xcode plugin
 
 ## Usage
 
-<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd> 
-Runs currently active Kiwi Spec file in Xcode.
+<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>  runs currently open Kiwi Spec file in Xcode.
 
 ## Requirements
 
