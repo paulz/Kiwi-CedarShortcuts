@@ -8,7 +8,8 @@ Run single Kiwi spec using CedarShortcuts Xcode plugin
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
+Runs currently active Kiwi Spec file in Xcode.
 
 ## Requirements
 
@@ -24,9 +25,13 @@ it, simply add the following line to your Podfile:
 pod 'Kiwi-CedarShortcuts'
 ```
 
+## Example
+
+To run the example project spec, clone the repo, open Xcode workspace and press <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
+
 ## Author
 
-Paul Zabelin, paulz@users.noreply.github.com
+Paul Zabelin, http://paulz.github.io
 
 ## License
 
