@@ -8,7 +8,7 @@ Run single Kiwi spec using CedarShortcuts Xcode plugin
 
 ## Usage
 
-<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
+<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd> 
 Runs currently active Kiwi Spec file in Xcode.
 
 ## Requirements
@@ -22,7 +22,9 @@ Kiwi-CedarShortcuts is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Kiwi-CedarShortcuts'
+target 'Tests' do
+  pod 'Kiwi-CedarShortcuts'
+end
 ```
 
 ## Example
