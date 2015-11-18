@@ -19,7 +19,7 @@ https://github.com/cppforlife/CedarShortcuts
 ## Installation
 
 Kiwi-CedarShortcuts is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, add `pod 'Kiwi-CedarShortcuts'` to your test target in Podfile:
 
 ```ruby
 target 'Tests' do
@@ -29,7 +29,11 @@ end
 
 ## Example
 
-To run the example project spec, clone the repo, open Xcode workspace and press <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
+To run the example project spec
+ 1. clone the repo
+ 2. open [Example/Kiwi-CedarShortcuts.xcworkspace](Example/Kiwi-CedarShortcuts.xcworkspace)
+ 3. open [ExampleSpec.m](Example/Tests/ExampleSpec.m)
+ 4. press <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
 
 ## Author
 
