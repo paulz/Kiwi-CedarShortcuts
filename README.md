@@ -1,5 +1,5 @@
 # Kiwi-CedarShortcuts
-Run single [Kiwi](https://github.com/kiwi-bdd/Kiwi) spec using [CedarShortcuts](https://github.com/cppforlife/CedarShortcuts) Xcode plugin
+Run single [Kiwi](https://github.com/kiwi-bdd/Kiwi) spec file using [CedarShortcuts](https://github.com/cppforlife/CedarShortcuts) Xcode plugin
 
 [![CI Status](http://img.shields.io/travis/paulz/Kiwi-CedarShortcuts.svg?style=flat)](https://travis-ci.org/paulz/Kiwi-CedarShortcuts)
 [![Version](https://img.shields.io/cocoapods/v/Kiwi-CedarShortcuts.svg?style=flat)](http://cocoapods.org/pods/Kiwi-CedarShortcuts)
@@ -8,7 +8,10 @@ Run single [Kiwi](https://github.com/kiwi-bdd/Kiwi) spec using [CedarShortcuts](
 
 ## Usage
 
-<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>  runs currently open Kiwi Spec file in Xcode.
+<kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>  runs all examples in currently open Kiwi Spec file in Xcode.
+
+This helps Test Driven Development with Kiwi and saves time waiting for all specs to run.
+See [Successful TDD on iOS](http://paulz.github.io/ios/tdd/unit/acceptance/spec/bdd/objc/2015/06/07/successful-tdd-on-ios.html) for more information on tools and tips. 
 
 ## Requirements
 
@@ -33,6 +36,14 @@ To run the example project spec
  2. open [Example/Kiwi-CedarShortcuts.xcworkspace](Example/Kiwi-CedarShortcuts.xcworkspace)
  3. open [ExampleSpec.m](Example/Tests/ExampleSpec.m)
  4. press <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
+
+## Frequetly Asked Questions
+### Why Kiwi-CedarShortcuts does not run a single spec in isolation, but rather all examples in spec? 
+ * Running a single example requires precise cursor placement in Xcode within the example or even first line of example, which takes attention away from the task.
+ * Refactoring code often cause other examples to fail and it's useful to run whole KWSpec
+ * CedarShortcuts plugin does not have a shortcut to run spec file, so we are using `Run Focused Spec`
+ * In practice, we found it already saves so much time for TDD, that trying to isolate a single example is a battle of diminishing returns
+ * It motivates us to have short specs instead of long ones with large number of tiny examples.
 
 ## Author
 
